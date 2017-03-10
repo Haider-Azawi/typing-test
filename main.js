@@ -5,3 +5,6 @@ for (var i = 0; i < text.length; i++) {
   $letter.textContent = text[i]
   document.body.appendChild($letter)
 }
+
+var $first = document.querySelector('span')
+$first.classList.add('current')
